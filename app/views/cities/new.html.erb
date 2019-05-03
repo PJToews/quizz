@@ -4,6 +4,7 @@
 <h1>Enter Your Favorite City in the World</h1>
 <%= simple_form_for @city do |f| %>
 <%= f.input :name %>
+<%= f.input :country %>
 <%= f.input :description %>
 <br />
 <%= f.submit 'Create', class: 'btn btn-primary' %>
