@@ -4,8 +4,7 @@ class CreateCities < ActiveRecord::Migration[5.2]
 
 
       t.string :name
-      t.text :description
-      t.string :country
+      t.text :description    
       t.timestamps
     end
   end
