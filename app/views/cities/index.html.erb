@@ -1,19 +1,20 @@
-<h1>WELCOME FELLOW TRAVELER!</h1>
+<br />
+
+<h1 class="header">WELCOME FELLOW TRAVELER!</h1>
+<br />
 
 <p>Do you want to help other people travel better for less? Share your experiences to help other travellers and turn their dream trip into a reality, save money, or travel the world. Or, if you are looking for tips, advice, and suggestions so you can see more for less and make your dream trip a reality, you are in the right place!</p>
 
 <br />
-<br />
-
-<hr>
-<br />
+<hr />
 <br />
 
 
 <% @cities.each do |city| %>
+<div class="booyah-box col-10 offset-1">
 <div>
   <h1><%= city.name %></h1><br />
-  <i><%= city.country %></i><br />
+  <i><%= city.country %></i><br /><br />
   <p><%= city.description %></p><br />
 </div>
 
